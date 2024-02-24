@@ -1,7 +1,7 @@
+import ShimmerText from "./ShimmerText";
 function Header (){
     return(
         <header>
-            <h1>My Website</h1>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -10,7 +10,7 @@ function Header (){
                     <li><a href="/">Contact</a></li>
                 </ul>
             </nav>
-            <hr />
+            <h1><ShimmerText>My Website</ShimmerText></h1>
         </header>
     );
 }
