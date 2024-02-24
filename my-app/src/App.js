@@ -1,12 +1,19 @@
 import Header from "./component/Header"
 import Footer from "./component/Footer";
-import Food from "./component/Food";
+import AboutMe from "./component/AboutMe";
 import Card from "./component/Card"
 function App() {
     return(
         <>
             <Header />
-            <Food />
+            <AboutMe />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
             <Card />
             <Footer />
         </>
